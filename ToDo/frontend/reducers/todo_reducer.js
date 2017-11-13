@@ -1,4 +1,4 @@
-import { RECEIVE_TODO, RECEIVE_TODOS, recieveTodo, recieveTodos } from '../actions/todo_actions';
+import { RECEIVE_TODO, RECEIVE_TODOS } from '../actions/todo_actions';
 import { merge } from 'lodash';
 
 const initialState = {

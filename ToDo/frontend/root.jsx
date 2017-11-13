@@ -1,9 +1,10 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+import App from './components/app';
 
-const root = () => {
-  return(
-    <h1>Working!</h1>
-  );
-};
+const root = () => (
+
+  <h1>App</h1>
+);
 
 export default root;
