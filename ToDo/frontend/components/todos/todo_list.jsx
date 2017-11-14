@@ -1,5 +1,5 @@
 import React from 'react';
-import { TodoListItem } from './todo_list_item';
+import TodoListItem from './todo_list_item';
 import TodoForm from './todo_form';
 
 export const TodoList = ({ todos, receiveTodo, removeTodo}) => {
@@ -11,6 +11,7 @@ export const TodoList = ({ todos, receiveTodo, removeTodo}) => {
             todo={el}
             key={el.id}
             removeTodo ={removeTodo}
+            receiveTodo={receiveTodo}
           />)
         }
       </ul>
