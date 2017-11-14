@@ -1,5 +1,10 @@
 import React from 'react';
 
 export const TodoListItem = (props) => (
-  <li>{props.todo.title}</li>
+  <div>
+    <li>{props.todo.title}</li>
+    <button onClick={e => props.removeTodo(props.todo)}>
+      Remove Todo
+    </button>
+  </div>
 );
